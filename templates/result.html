@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+  <title>Prediction Page</title>
+
+
+
+{% endblock %}
+
+{% block body %}
+  
+<div class="p-3 mb-2 bg-dark text-white text-dark">
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Prediction</h1>
+      <hr class="my-4">
+      <p class="lead">Your Chances for admission into your Dream College is <strong> {{prediction}}% </strong> </p>
+    </div>  
+  </div>
+</div>
+{% endblock %}
